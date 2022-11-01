@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity_kayit_olma_ekrani">
+
+
+    <ImageView
+        android:layout_width="267dp"
+        android:layout_height="187dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_baseline_account_tree_24" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="İŞSİZ KALMA"
+        android:textAlignment="center"
+        android:textColor="#6F4897"
+        android:textSize="25dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_kullanici_adi_kayit_olma"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/kayit_ekrani_edit_text_shape"
+            android:drawableLeft="@drawable/account"
+            android:hint="Kullanıcı Adı"
+            android:textColor="@color/white"
+            android:textColorHint="#9C8068"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/et_sifre_akyit_olma"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/kayit_ekrani_edit_text_shape"
+            android:drawableLeft="@drawable/password"
+            android:hint="Password"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="#9C8068"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/kayit_ekrani_kayit_ol"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/kayit_ekrani_button_bg"
+        android:text="KAYIT OL"
+        android:textColor="#6F4897"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/kayit_ekrani_ana_menu_donme"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/kayit_ekrani_button_bg"
+        android:backgroundTint="@color/white"
+        android:text="ANA MENÜYE DÖN"
+        android:textColor="#6F4897"
+        android:textStyle="bold" />
+
+</LinearLayout>
