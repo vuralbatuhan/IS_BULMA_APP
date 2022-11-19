@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "689753283397",
+    "project_id": "nkuproje-1b8d4",
+    "storage_bucket": "nkuproje-1b8d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689753283397:android:9bf327ae48c753e0f57c2c",
+        "android_client_info": {
+          "package_name": "com.nassssiiii.is_bulma_verme_nku_proje_odev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689753283397-kgih9jttlrln46sumf48gq5cctcnedjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAg2FyKuk4fjqshu9eDI2P8IMjzZGzrSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689753283397-kgih9jttlrln46sumf48gq5cctcnedjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

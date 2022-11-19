@@ -40,18 +40,20 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/email_text"
             android:layout_width="300dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:background="@drawable/edit_text_shape"
             android:drawableLeft="@drawable/account"
-            android:hint="Kullanıcı Adı"
+            android:hint="E-mail"
             android:textColor="@color/black"
             android:textColorHint="#69708F"
             android:textSize="30dp" />
 
         <EditText
+            android:id="@+id/password_text"
             android:layout_width="300dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
